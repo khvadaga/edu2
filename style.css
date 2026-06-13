@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #2c1616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.redspan {
+    color: red;
+}
+
+.regForm {
+    width: 500px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.34);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.flexer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.satauri {
+    text-align: center;
+}
+
+
+.regForm input {
+    height: 55px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.regForm select {
+    height: 55px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.submitbutton { 
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+
+.regForm input::placeholder { 
+    font-size: 15px;
+}
