@@ -1,57 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
 
-    <form class="regForm">
+    <header>
+        <nav class="container">
+            <div class="logo"></div> 
+            <ul>
+                <li><a href="#">Çözüm ve Hizmetler</a></li>
+                <li><a href="#">Ürünler</a></li>
+                <li><a href="#">Teknolojiler</a></li>
+                <li><a href="#">İnsan Kaynakları</a></li>
+                <li><a href="#">Kurumsal</a></li>
+                <li><a href="#" class="btn-nav">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h1 class="satauri">User Registration Form</h1>
+    <main class="hero-section">
+        <div class="container">
+            <div class="hero-text-block">
+                
+                <h1 class="custom-title">Bilgi Teknolojilerinde<br>23 Yıllık Tecrübe</h1>
+                
+                <p class="custom-sub">
+                    Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı 
+                    sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş 
+                    Analizi ve Test Yönetimi hizmetleri sunmaktayız.
+                </p>
+                
+                <div class="email-box">
+                    <input type="email" placeholder="Mail bültenimize kayıt ol">
+                    <button type="button">Kayıt Ol</button>
+                </div>
 
-        <div class="flexer">
-            <label class="reglabel" for="username">Username <span class="redspan">*</span> </label>
-            <input type="text" placeholder="Enter your username">
+            </div>
         </div>
-
-        <div class="flexer">
-            <label class="reglabel" for="firstname">First Name <span class="redspan">*</span> </label>
-            <input type="text" placeholder="Enter your firstname">
-        </div>
-
-        <div class="flexer">
-            <label class="reglabel" for="lastname">Last Name <span class="redspan">*</span> </label>
-            <input type="text" placeholder="Enter your Last">
-        </div>
-
-        <div class="flexer">
-            <label class="reglabel" for="password">Password <span class="redspan">*</span> </label>
-            <input type="password">
-        </div>
-
-        <div class="flexer">
-            <label class="reglabel" for="confirmpassword">Confirm Password <span class="redspan">*</span> </label>
-            <input type="password">
-        </div>
-
-        <div class="flexer">
-            <label class="reglabel" for="cars">Choose your gender</label>
-
-            <select>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </select>
-        </div>
-
-
-        <input class="submitbutton" type="submit" value="Registration">
-
-    </form>
+    </main>
+    
 </body>
-
 </html>
